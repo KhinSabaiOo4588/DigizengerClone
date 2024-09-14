@@ -1,0 +1,62 @@
+/* App.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.users {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.users li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+.users li:hover {
+  background-color: #e6e6e6;
+}
+
+.users img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.users div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.users h4 {
+  margin: 0;
+  color: #555;
+}
+
+.users a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.users a:hover {
+  text-decoration: underline;
+}
