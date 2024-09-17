@@ -1,0 +1,14 @@
+/* App.css or NavBar.module.css */
+
+.nav-link-container a {
+  color: blue; /* Default link color */
+  text-decoration: none;
+}
+
+.nav-link-container .yellow {
+  color: yellow; /* Active link color */
+}
+
+.nav-link-container .blue {
+  color: blue; /* Inactive link color */
+}

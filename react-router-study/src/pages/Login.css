@@ -1,0 +1,58 @@
+/* Base styles for the login form container */
+.login-container {
+    max-width: 400px; /* Set a maximum width for the form */
+    margin: 50px auto; /* Center the form horizontally with margin */
+    padding: 20px; /* Add padding around the form */
+    border-radius: 8px; /* Rounded corners for the form */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Styling for form elements */
+  form {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack form elements vertically */
+  }
+  
+  /* Styling for input fields */
+  input {
+    padding: 10px; /* Add padding inside input fields */
+    margin-bottom: 15px; /* Space between input fields */
+    border: 1px solid #ddd; /* Light border around input fields */
+    border-radius: 4px; /* Rounded corners for input fields */
+    font-size: 16px; /* Font size inside input fields */
+    width: 100%; /* Full width of the parent container */
+    box-sizing: border-box; /* Include padding and border in element’s total width and height */
+  }
+  
+  /* Focus styles for input fields */
+  input:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  /* Styling for the submit button */
+  button {
+    padding: 10px; /* Add padding inside the button */
+    background-color: #007bff; /* Primary color for the button */
+    color: white; /* Text color inside the button */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for the button */
+    font-size: 16px; /* Font size inside the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  /* Hover effect for the button */
+  button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+  }
+  
+  /* Add a heading style if you want to include a title */
+  h1 {
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Space below the title */
+    color: #333; /* Dark text color */
+    font-size: 24px; /* Font size for the title */
+  }
+  

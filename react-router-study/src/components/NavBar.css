@@ -1,0 +1,52 @@
+/* Base styles for the navbar container */
+.navbar {
+  background-color: #333; /* Dark background color for the navbar */
+  padding: 10px 20px; /* Padding around the navbar */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between the title and links */
+  align-items: center; /* Center items vertically */
+  color: white; /* Text color for the navbar */
+}
+
+/* Styling for the navbar title */
+.navbar h1 {
+  margin: 0; /* Remove default margin */
+  font-size: 24px; /* Increase font size for the title */
+  font-weight: bold; /* Make the title bold */
+}
+
+/* Styling for the link container */
+.nav-link-container {
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Display links in a row */
+}
+
+/* Styling for each list item */
+.nav-link-container li {
+  margin-right: 20px; /* Space between links */
+}
+
+/* Base styling for links */
+.nav-link {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Color for inactive links */
+  font-size: 16px; /* Set font size for links */
+  padding: 5px 10px; /* Add padding around the links */
+  border-radius: 4px; /* Rounded corners for the links */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Styling for active links */
+.nav-link.active {
+  background-color: #555; /* Darker background for active link */
+  color: #FFD700; /* Color for active links */
+  font-weight: bold; /* Bold font weight for active link */
+}
+
+/* Hover effect for links */
+.nav-link:hover {
+  background-color: #666; /* Slightly lighter background on hover */
+  color: #FFD700; /* Color on hover */
+}
